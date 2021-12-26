@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#616161</color>
+    <color name="background_secondray">#26292E</color>
+    <color name="background_primiray">#32353A</color>
+    <color name="background">#44474C</color>
+    <color name="back_main">#3C3C3C</color>
+    <color name="back_tire2">#212121</color>
+    <color name="back_tire">#2D2D2D</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray100">#F5F5F5</color>
+    <color name="gray200">#EEEEEE</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray500">#9E9E9E</color>
+    <color name="gray600">#757575</color>
+    <color name="gray700">#616161</color>
+    <color name="gray800">#424242</color>
+    <color name="gray900">#212121</color>
+    <color name="yellow">#FF9800</color>
+    <color name="green">#00C853</color>
+    <color name="gold">#FFB300</color>
+    <color name="red">#c62828</color>
+    <color name="orange">#FF5722</color>
+    <color name="background_color">#2C2C2C</color>
+</resources>
