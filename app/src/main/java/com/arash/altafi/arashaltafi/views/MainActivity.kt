@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
     private val mainViewModel : MainViewModel by viewModels()
 
+    @Inject
     lateinit var mainAdapter : MainAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,9 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         //RecyclerView
         mainViewModel.priceLiveData.observe(this) {
-//            val mainAdapter : MainAdapter by inject { parametersOf(it.sana.data) }
-            mainAdapter = MainAdapter(it.sana.data)
-            //fixme add adapter to hilt
+            mainAdapter.priceList = it.sana.data
             rc_price.adapter = mainAdapter
             rc_price.layoutManager = LinearLayoutManager(this , RecyclerView.VERTICAL , false)
 
